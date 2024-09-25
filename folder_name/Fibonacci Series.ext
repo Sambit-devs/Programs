@@ -1,0 +1,18 @@
+public class Fibonacci {
+    public static void main(String args[])
+	{
+		
+	     	int a = 10;
+	    	int t1=0;
+        int t2=1;
+        int i;
+        int next;
+        for(i=1;i<=a;i++) {
+            System.out.println(t1);
+            next=t1+t2;
+            t1=t2;
+            t2=next;
+            
+        }
+    }
+}
