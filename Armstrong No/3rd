@@ -20,7 +20,6 @@ public class ArmstrongNumber {
         int sum = 0;
         int digits = String.valueOf(number).length(); // Count the number of digits
 
-        // Calculate the sum of the digits raised to the power of the number of digits
         while (number > 0) {
             int digit = number % 10; // Get the last digit
             sum += Math.pow(digit, digits); // Raise to the power of the number of digits
