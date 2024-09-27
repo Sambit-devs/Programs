@@ -14,6 +14,5 @@ public class ArmstrongNumber {
         
         scanner.close();
     }
-
     public static boolean isArmstrong(int number) {
         int original
