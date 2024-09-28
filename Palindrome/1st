@@ -1,7 +1,7 @@
 public class Palindrome {
     public static void main(String args[])
 	{
-		
+	
 		int a = 130;
 		int org = a;
         int rem,rev=0;
